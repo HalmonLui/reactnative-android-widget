@@ -5,7 +5,7 @@ import { StyleSheet, Text, View, TextInput, NativeModules, TouchableOpacity } fr
 const SharedStorage = NativeModules.SharedStorage;
 
 export default function App() {
-  const [text, onChangeText] = React.useState("Useless Text");
+  const [text, onChangeText] = React.useState("");
   const sendText = () => {
     console.log('SENDING TEXT')
     console.log('text', {text})
@@ -29,13 +29,13 @@ export default function App() {
           value={text}
           placeholder="text to show on widget"
           ></TextInput>
-        <TouchableOpacity
-          style={styles.button}
-          onPress={sendText}
-        >
-          <Text>Send</Text>
-        </TouchableOpacity>
       </View>
+      <TouchableOpacity
+        style={styles.button}
+        onPress={sendText}
+        >
+        <Text>Send</Text>
+      </TouchableOpacity>
       <StatusBar style="auto" />
     </View>
   );
@@ -49,15 +49,16 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   inputContainer: {
-    flex: 1,
     flexDirection: 'row',
     backgroundColor: 'lightblue',
     width: 300,
     padding: 10,
+    alignItems: "center",
   },
   button: {
     alignItems: "center",
     backgroundColor: "#DDDDDD",
-    padding: 10
+    padding: 10,
+    width: 300,
   },
 });
