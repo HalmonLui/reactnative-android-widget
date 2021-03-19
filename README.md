@@ -2,15 +2,15 @@
 Trial/proof of concept to create a working Android widget connection with expo
 Once working, will integrate with socket.io for real-time events between devices
 
-# How it works
+## How it works
 A native android widget communicates with React Native's NativeModules package.
 We created a native android class `SharedStorage` which allows for communication between our RN app and the widget.
 
-# Screenshots
+## Screenshots
 <img src="https://github.com/HalmonLui/reactnative-android-widget/blob/main/readme/app_screenshot.jpg" alt="Demo Application" width="200px"/>
 <img src="https://github.com/HalmonLui/reactnative-android-widget/blob/main/readme/widget_screenshot.jpg" alt="Demo Widget" width="200px"/>
 
-# How to Run
+## How to Run
 Requirements:
 - React Native
 - Node.js
