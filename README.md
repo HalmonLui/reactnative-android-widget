@@ -7,8 +7,8 @@ A native android widget communicates with React Native's NativeModules package.
 We created a native android class `SharedStorage` which allows for communication between our RN app and the widget.
 
 # Screenshots
-![Demo Application](https://github.com/HalmonLui/reactnative-android-widget/blob/main/readme/app_screenshot.jpg =250x "Demo Application")
-![Demo Widget](https://github.com/HalmonLui/reactnative-android-widget/blob/main/readme/widget_screenshot.jpg =250x "Demo Widget and my cat Luna")
+<img src="https://github.com/HalmonLui/reactnative-android-widget/blob/main/readme/app_screenshot.jpg" alt="Demo Application" style="width:200px;"/>
+<img src="https://github.com/HalmonLui/reactnative-android-widget/blob/main/readme/widget_screenshot.jpg" alt="Demo Widget" style="width:200px;"/>
 
 # How to Run
 Requirements:
